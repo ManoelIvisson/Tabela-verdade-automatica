@@ -8,12 +8,19 @@
     <title>Tabela verdade automática</title>
 </head>
 <body>
-    <h1>Crie sua tabela verdade!</h1>
-    <table>
-        <tbody id="ctabela">
-
-        </tbody>
-    </table>
+    <header>
+        <h1>Crie sua tabela verdade!</h1>
+    </header>
+    <main>
+        <section>
+            <input type="button" value="Adicionar proposição" onclick="cria_tabela()">
+            <input type="number" name="proposicao" id="iproposicao">
+            <table>
+                <tbody id="ctabela">
+                </tbody>
+            </table>
+        </section>
+    </main>
 
     <script src="script/cria_tabela.js"></script>
 </body>

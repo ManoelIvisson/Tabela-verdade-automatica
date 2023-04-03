@@ -5,6 +5,40 @@
     padding: 0px;
 }
 
-th, tr {
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+header, main {
+    margin: auto;
+    max-width: 1000px;
+}
+
+main {
     border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.719);
+    min-height: 500px;
+    padding: 50px;
+    background-color: gray;
+}
+
+main section {
+    margin: auto;
+    max-width: 350px;
+}
+
+table {
+    border-collapse: collapse;
+    display: block;
+    padding: 10px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
 }
