@@ -20,11 +20,10 @@ header, main {
 
 main {
     border: 1px solid black;
-    border-radius: 5px;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.719);
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.534);
     min-height: 500px;
     padding: 50px;
-    background-color: gray;
 }
 
 main section {
@@ -35,6 +34,7 @@ main section {
 table {
     border-collapse: collapse;
     display: block;
+    margin: auto;
     padding: 10px;
 }
 
