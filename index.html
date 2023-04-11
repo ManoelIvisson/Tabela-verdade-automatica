@@ -14,7 +14,8 @@
     <main>
         <section>
             <input type="button" value="Adicionar proposição" onclick="cria_tabela()">
-            <input type="range" name="proposicao" id="iproposicao" min="1" max="5" value="1">
+            <input type="range" name="proposicao" id="iproposicao" min="1" max="5" value="1" oninput="npropos.innerHTML = iproposicao.value">
+            <output id="npropos">1</output>
             <table>
                 <thead id="cpropos">
 
